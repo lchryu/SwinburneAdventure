@@ -23,7 +23,9 @@ public class Test_LookCommand
     [Test]
     public void TestLookAtMe()
     {
+        Console.WriteLine($"_player.FullDescription = {_player.FullDescription}");
         string result = _lookCommand.Execute(_player, new string[] { "look", "at", "inventory" });
+        Console.WriteLine($"result = {result}");
         Assert.AreEqual(_player.FullDescription, result);
     }
 
