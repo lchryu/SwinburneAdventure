@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lchry\\RiderProjects\\LuyenTapOOP\\LuyenTapOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F53D909-AA4B-4979-BD61-0B6DECCFBB45}|LuyenTapOOP.csproj|c:\\users\\lchry\\riderprojects\\luyentapoop\\luyentapoop\\test_bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F53D909-AA4B-4979-BD61-0B6DECCFBB45}|LuyenTapOOP.csproj|solutionrelative:test_bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test_Bag.cs",
+              "DocumentMoniker": "C:\\Users\\lchry\\RiderProjects\\LuyenTapOOP\\LuyenTapOOP\\Test_Bag.cs",
+              "RelativeDocumentMoniker": "Test_Bag.cs",
+              "ToolTip": "C:\\Users\\lchry\\RiderProjects\\LuyenTapOOP\\LuyenTapOOP\\Test_Bag.cs",
+              "RelativeToolTip": "Test_Bag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:25:16.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
