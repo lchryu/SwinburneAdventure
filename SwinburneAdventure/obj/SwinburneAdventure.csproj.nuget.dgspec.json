@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lchry\\RiderProjects\\New folder\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj": {}
+    "C:\\Users\\lchry\\OneDrive\\Desktop\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lchry\\RiderProjects\\New folder\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj": {
+    "C:\\Users\\lchry\\OneDrive\\Desktop\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lchry\\RiderProjects\\New folder\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj",
+        "projectUniqueName": "C:\\Users\\lchry\\OneDrive\\Desktop\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj",
         "projectName": "SwinburneAdventure",
-        "projectPath": "C:\\Users\\lchry\\RiderProjects\\New folder\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj",
+        "projectPath": "C:\\Users\\lchry\\OneDrive\\Desktop\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj",
         "packagesPath": "C:\\Users\\lchry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lchry\\RiderProjects\\New folder\\SwinburneAdventure\\SwinburneAdventure\\obj\\",
+        "outputPath": "C:\\Users\\lchry\\OneDrive\\Desktop\\SwinburneAdventure\\SwinburneAdventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lchry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -35,11 +35,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {

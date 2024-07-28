@@ -1,8 +1,24 @@
 ﻿namespace SwinburneAdventure;
 
-public abstract class Command : IdentifiableObject
+
+public abstract class Command
 {
-    public Command(string[] ids) : base(ids) {}
+    private List<string> _identifiers;
+
+    public Command(string[] ids)
+    {
+        _identifiers = new List<string>(ids);
+    }
+
+    public List<string> Identifiers
+    {
+        get { return _identifiers; }
+    }
+
+    public bool AreYou(string id)
+    {
+        return _identifiers.Contains(id.ToLower());
+    }
 
     public abstract string Execute(Player p, string[] text);
 }

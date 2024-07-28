@@ -39,7 +39,7 @@ public class BagTests
         Bag bag = new Bag(new string[] { "bag" }, "a small bag", "This is a small bag.");
         Item sword = new Item(new string[] { "sword" }, "a bronze sword", "This is a mighty fine sword.");
         bag.Inventory.Put(sword);
-        Assert.AreEqual("In the a small bag you can see:\n\ta bronze sword (sword)\n", bag.FullDescription);
+        Assert.AreEqual("This is a small bag.\nIn the a small bag you can see:\n\ta bronze sword (sword)\n", bag.FullDescription);
     }
 
 

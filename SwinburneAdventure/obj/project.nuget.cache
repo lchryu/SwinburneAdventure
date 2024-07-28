@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qPiXOj6+BkQ=",
+  "dgSpecHash": "xx1Q4bFuizEFVu9gBErbVyR6ifvn6oaqo8ROA7+rGcb+ZEqo69GBE5F33Buqv6rXUmEzDcjml13XcHZumvQtMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lchry\\RiderProjects\\New folder\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj",
+  "projectFilePath": "C:\\Users\\lchry\\OneDrive\\Desktop\\SwinburneAdventure\\SwinburneAdventure\\SwinburneAdventure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lchry\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\lchry\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",

@@ -1,21 +1,25 @@
 ﻿namespace SwinburneAdventure;
 
-public class Player:GameObject,IHaveInventory
+public class Player : GameObject, IHaveInventory
 {
     private Inventory _inventory;
     private Location _currentLocation;
-    public Player(string name, string desc)
-        : base(new string[] {"me", "inventory"}, name, desc)
+
+    public Player(string name, string desc) 
+        : base(new string[] { "me", "inventory" }, name, desc)
     {
-        _inventory = new ();
+        _inventory = new Inventory();
         _currentLocation = new Location("Room", "A small room.");
     }
+
     public Inventory Inventory => _inventory;
+
     public Location CurrentLocation
     {
-        get => _currentLocation;
-        set => _currentLocation = value;
+        get { return _currentLocation; }
+        set { _currentLocation = value; }
     }
+
     public override string FullDescription
     {
         get
@@ -34,5 +38,20 @@ public class Player:GameObject,IHaveInventory
             return foundItem;
 
         return CurrentLocation.Locate(id);
+    }
+
+    public Item Take(string id)
+    {
+        Item item = _inventory.Take(id);
+        if (item == null)
+        {
+            item = CurrentLocation.Inventory.Take(id);
+        }
+        return item;
+    }
+
+    public void Put(Item item)
+    {
+        _inventory.Put(item);
     }
 }

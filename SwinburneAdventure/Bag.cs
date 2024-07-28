@@ -1,6 +1,6 @@
 ﻿namespace SwinburneAdventure;
 
-public class Bag : Item,IHaveInventory
+public class Bag : Item, IHaveInventory
 {
     private Inventory _inventory;
 
@@ -16,12 +16,26 @@ public class Bag : Item,IHaveInventory
     {
         get
         {
-            return $"In the {Name} you can see:\n{_inventory.ItemList}";
+            return $"{base.FullDescription}\nIn the {Name} you can see:\n{_inventory.ItemList}";
         }
     }
+
     public GameObject Locate(string id)
     {
-        if (this.AreYou(id)) return this;
+        if (AreYou(id))
+        {
+            return this;
+        }
         return _inventory.Fetch(id);
+    }
+
+    public void Put(Item item)
+    {
+        _inventory.Put(item);
+    }
+
+    public Item Take(string id)
+    {
+        return _inventory.Take(id);
     }
 }
